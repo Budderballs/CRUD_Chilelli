@@ -189,21 +189,5 @@ namespace CRUD_Chilelli
 
             getTheCustomerStuff();
         }
-
-        private void IDText_Leave(object sender, EventArgs e)
-        {
-            if(string.IsNullOrEmpty(IDText.Text))
-            {
-                IDText.Text = "Enter Customer ID";
-            }
-        }
-
-        private void IDText_MouseClick(object sender, MouseEventArgs e)
-        {
-            if (IDText.Text == "Enter Customer ID")
-            {
-                IDText.Clear();
-            }
-        }
     }
 }

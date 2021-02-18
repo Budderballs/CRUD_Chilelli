@@ -87,8 +87,6 @@ namespace CRUD_Chilelli
             this.IDText.Name = "IDText";
             this.IDText.Size = new System.Drawing.Size(100, 20);
             this.IDText.TabIndex = 1;
-            this.IDText.MouseClick += new System.Windows.Forms.MouseEventHandler(this.IDText_MouseClick);
-            this.IDText.Leave += new System.EventHandler(this.IDText_Leave);
             // 
             // deleteButton
             // 
